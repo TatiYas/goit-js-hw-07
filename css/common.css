@@ -36,6 +36,7 @@
   }
   /* ==== Task 1 ======= */
   
+  
   #categories {
     display: flex;
     flex-direction: column;
@@ -81,13 +82,16 @@
   .gallery {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-    align-items: center;
+    justify-content: center;
+    gap: 48px 24px;
+    max-width: 1440px;
+    margin: 0 auto;
   }
   
-  .gallery_image {
+  .gallery img {
     max-width: 360px;
+    height: 300px;
+    object-fit: cover;
   }
   
   /* ===== Task 3 ===== */
