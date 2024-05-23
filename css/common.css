@@ -37,41 +37,40 @@
   /* ==== Task 1 ======= */
   
   #categories {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
     max-width: 392px;
     margin: 0 auto;
-    padding: 24px;
-    list-style-type: none;
-    border-radius: 8px;
-    background-color: #fff;
   }
   
-  .item > h2 {
-    margin-bottom: 16px;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 1.33;
-  }
-  
-  #categories > .item {
-    padding: 16px;
-    border-radius: 8px;
+  .item {
     background-color: #f6f6fe;
+    border-radius: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    margin-top: 24px;
   }
   
-  .item ul {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  .item h2 {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
   }
   
   .item li {
-    padding: 8px 16px;
-    border-radius: 4px;
     border: 1px solid #808080;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+  
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
   }
   
   /* ===== Task 2 ===== */
